@@ -1,4 +1,4 @@
-package com.example.graphqltutorial
+package com.example.graphqltutorial.model
 
 data class Author(val id: String, val firstName: String, val lastName: String) {
     companion object {

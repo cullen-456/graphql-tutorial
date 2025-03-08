@@ -1,5 +1,7 @@
-package com.example.graphqltutorial
+package com.example.graphqltutorial.controller
 
+import com.example.graphqltutorial.model.Author
+import com.example.graphqltutorial.model.Book
 import org.springframework.graphql.data.method.annotation.Argument
 import org.springframework.graphql.data.method.annotation.QueryMapping
 import org.springframework.graphql.data.method.annotation.SchemaMapping

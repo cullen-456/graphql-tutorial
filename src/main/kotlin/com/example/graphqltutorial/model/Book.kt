@@ -1,4 +1,4 @@
-package com.example.graphqltutorial
+package com.example.graphqltutorial.model
 
 data class Book(val id: String, val name: String, val pageCount: Int, val authorId: String) {
     companion object {
