@@ -21,5 +21,16 @@ query bookDetails {
 
 Subscription:
 ```graphql
-
+subscription bookDetails {
+  bookAdded {
+    id
+    name
+    pageCount
+    author {
+      id
+      firstName
+      lastName
+    }
+  }
+}
 ```
